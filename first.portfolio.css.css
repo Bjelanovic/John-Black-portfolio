@@ -1,0 +1,239 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color:lightblue;
+    color: black;
+    padding: -10px 0;
+    text-align:right;
+  }
+  h2{text-align:center;}
+  
+  .styled-name {
+    margin: 5px; background-color:lightblue;text-align: left;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff; 
+  }
+  
+  .profile {
+    text-align: left;
+  }
+  
+  .profile img {
+    border-radius: 40%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: -10px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills-list div {
+    width: 50%;
+    margin: 20px;
+    text-align: bottom;
+    
+  }
+  
+  .projects-list, .recommendations-list {
+    margin-top: 10px;
+  }
+  
+  .home-icon {
+    display: block;
+    text-align: center;
+    margin-top: 0px; border-radius: 5px 5px 5px 5px;background-color: lightblue;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  table1 { font-size:23px; text-align: right  }
+  table{margin:0px; text-align: left;}
+  p{text-align:top; background-color: lightblue; color:black; border-radius: 5px 5px 5px 5px; font-size: 20px}
+  h2{text-align:center;font-size:30px;}
+  fieldset{text-align:center; margin:center;padding:18px;}
+  h3{text-align:left;padding:18px; }
+  p1{border:solid with50px ;}
+  fieldset1 {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;  
+    padding: 25px; 
+    margin-left: 50px; 
+    margin-right: 50px;   
+    border: thin solid white;
+    width: 50%;
+  }
+  /* Recommendations */
+  
+  .all_recommendations {
+    display: flex;
+    align-items: center;
+    margin-left: 1in;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 20px;
+  }
+  
+  .recommendation {
+    font-style: italic;
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+    background-color: lightblue;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 30px;
+    margin: 10px;
+    border:1px solid gray;
+    font-size: 18px;
+    height:150px
+  }
+  
+  .recommendation span {
+    color: Lightblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; padding:50;
+  }
+  
+  /* Scroll to Top Button */
+  
+  .iconbutton {padding:center; cursor: pointer;
+  }
+  
+  /* Form Pop-up */
+  
+  .popup {
+    width:400px;
+    background-color: Lightblue;
+    border-radius: 3mm;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: fixed;
+    /* padding: 30px; */
+    visibility: hidden;
+  }
+  
+  .popup img {
+    padding-top: 20px;
+  }
+  
+  .popup button {background-color: lightblue;
+    border: lightblue;
+    color: lightblue;
+    
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    margin-left: 25%
+    
+  }
+  
+  .popup button:hover {
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    color: lightblue;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  
+  /* Recommendation Form */
+  
+  input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 10px;  
+    width:100%;
+  }
+  
+  fieldset1 {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;  
+    padding: 25px; 
+    margin-left: 50px; 
+    margin-right: 50px;   
+    border: thin solid white;
+    width: 50%;
+  }
+  
+  /* Buttons */
+  
+  button {
+    background-color: lightblue;
+    border: 1px Black;
+    color: Black;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: lightblue;
+    border: 1px lightblue;
+    color: black;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+  }
+  h2{text-align:left;}

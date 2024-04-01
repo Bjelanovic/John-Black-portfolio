@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="./script.js"></script>
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<div id="home">
+ <h1 class="styled-name">John Black
+  </h1>
+  <table>
+  <tr><td>Email: john.gmail.com</td></tr>
+  <tr><td>Phone number: 038255673546</td></tr>
+  </table>
+  <div/>
+<nav>
+    <table1>
+    <tr>
+      <td><a href="#about">About</a></td>
+      <td><a href="#skills">Skills</a></td>
+      <td><a href="#projects">Projects</a></td>
+      <td><a href="#recommendations">Recommendations</a></td>
+    </tr>
+    </table1>
+  </nav>
+ 
+  
+   
+  
+ 
+</header>
+
+<section id="about">
+  <div class="profile">
+    <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-devops-illustration_23-2149387396.jpg" width="200px">
+    <h2>HI, I am John Black</h2>
+    <p>My expertise lies in front-end and back-end development, where I enjoy crafting user-friendly interfaces and robust backend systems. I thrive in collaborative environments, where I can leverage my problem-solving skills to overcome complex challenges and deliver high-quality solutions.<br>
+    Outside of work, I love to stay updated with the latest technologies and trends in the tech industry. I enjoy working on side projects to explore new technologies and expand my skill set. I am always eager to learn and grow as a developer, pushing the boundaries of what is possible with code.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-list">
+  <fieldset>
+  
+  
+   <figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" width="100px"></figure><figcaption>2 years expiriance</figcaption></fieldset>
+  
+        
+  <fieldset>
+  
+   <figure><img src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.jpg" width="160px"></figure><figcaption>2 years expiriance</figcaption> </fieldset>
+   
+  <fieldset>
+  
+  <figure><img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" width="180px"></figure> <figcaption>2 years expiriance</figcaption></fieldset>
+    
+    <fieldset>
+    
+   <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNghUjM5ct10-zw9HdcDhmh4uohnyHQ7caHQ&usqp=CAU" width="100px"></figure> <figcaption>2 years expiriance</figcaption> </fieldset>
+    
+    
+  
+  
+        
+   
+    <!-- Skills with logos and text go here -->
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-list">
+    <!-- Projects details go here -->
+    <ul>
+    <h3>
+    Trading Website
+    </h3>
+    <li>Developed a trading company Website using html,ccs, javascript, python.</li>
+    <h3>
+    Business Website
+    </h3>
+    <li>Developed a buiness website using html,ccs, javascript, python.</li>
+    <h3>
+    Currency Convertor
+    </h3>
+    <li>Developed a currency concertor for trading company using html,ccs, javascript, python.</li>
+    </ul>
+  </div>
+</section>
+<!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations:</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+           
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+           
+          For any future projects that need him expertise I would definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+           
+          He will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset1>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset1>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <button onclick="home">Home</button> <!-- Home button -->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Popup></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+    
+  </body>
+</html>
